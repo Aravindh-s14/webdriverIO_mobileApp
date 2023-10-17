@@ -24,10 +24,12 @@ Before running the automation tests, make sure you have the following prerequisi
 
 2. Navigate to the project directory:
    
-   ```cd your-repo
+   ```bash
+   cd your-repo
 3. Install required dependencies
 
-   ```npm install
+   ```bash
+   npm install
 
 ## Configuration
 
@@ -49,9 +51,9 @@ The tests will execute, and the results will be displayed in the console.
 The automated tests cover the following scenarios:
 
 1. SignUp Page:
-      -Whether user is able to sign in with no email id and password
-      -Whether the user is able to login with invalid email address
-      -Whether the user is abel to register with password less than required
+      -Whether user is able to sign in with no email id and password<br>
+      -Whether the user is able to login with invalid email address<br>
+      -Whether the user is abel to register with password less than required<br>
       -Whether the user is able to create account with an already existing email id
 
 2. Login Page:
