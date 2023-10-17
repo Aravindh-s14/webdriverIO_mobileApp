@@ -50,16 +50,16 @@ The tests will execute, and the results will be displayed in the console.
 
 The automated tests cover the following scenarios:
 
-1. SignUp Page:
+1. SignUp Page:<br>
       -Whether user is able to sign in with no email id and password<br>
       -Whether the user is able to login with invalid email address<br>
       -Whether the user is abel to register with password less than required<br>
       -Whether the user is able to create account with an already existing email id
 
-2. Login Page:
-      -Whether the user is able to empty email and password fields
-      -Whether the user is able to login with invalid email id
-      -Whether the user is able to login with unregistered emailid
+2. Login Page:<br>
+      -Whether the user is able to empty email and password fields<br>
+      -Whether the user is able to login with invalid email id<br>
+      -Whether the user is able to login with unregistered emailid<br>
       -Whether the user is able to successfully login using valid credentials
 
 ## Author
