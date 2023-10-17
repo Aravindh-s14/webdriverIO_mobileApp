@@ -21,3 +21,45 @@ Before running the automation tests, make sure you have the following prerequisi
 
    ```bash
    git clone https://github.com/yourusername/your-repo.git
+
+2. Navigate to the project directory:
+   
+   ```cd your-repo
+3. Install required dependencies
+
+   ```npm install
+
+## Configuration
+
+1. Update the wdio.conf.js file with the appropriate capabilities for your mobile app and the Appium server settings.
+
+2. Make sure to configure the desired mobile app's capabilities (platformName, deviceName, app, etc.) in the capabilities section of the configuration file.
+
+## Running the Tests
+
+To run the signup and login automation tests, use the following command:
+   ```npx wdio```
+
+[Runs the spec files mentioned in the 'spec' property in wdio.conf.js]
+
+The tests will execute, and the results will be displayed in the console.
+
+## Test Scenarios
+
+The automated tests cover the following scenarios:
+
+1. SignUp Page:
+      -Whether user is able to sign in with no email id and password
+      -Whether the user is able to login with invalid email address
+      -Whether the user is abel to register with password less than required
+      -Whether the user is able to create account with an already existing email id
+
+2. Login Page:
+      -Whether the user is able to empty email and password fields
+      -Whether the user is able to login with invalid email id
+      -Whether the user is able to login with unregistered emailid
+      -Whether the user is able to successfully login using valid credentials
+
+## Author
+
+Aravind S Panicker
