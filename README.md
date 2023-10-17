@@ -1,6 +1,6 @@
 # Mobile App Automation with WebDriverIO
 
-![WebDriverIO Logo](https://webdriver.io/img/wdio.png)
+![WebDriverIO Logo](https://yt3.googleusercontent.com/i26ziVmH6mleSVzkXpRi78EfnAQq18oEpCZjERSFTGauqhC03n9mBmehy11CyjvOGDhPNZKoh7U=s176-c-k-c0x00ffffff-no-rj)
 
 ## Overview
 
